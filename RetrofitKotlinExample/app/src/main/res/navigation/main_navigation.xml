@@ -1,0 +1,12 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search_dogs">
+
+    <fragment
+        android:id="@+id/navigation_search_dogs"
+        android:name="com.cursokotlin.retrofitkotlinexample.presentation.view.searchdogs.SearchDogsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_search_dogs" />
+</navigation>

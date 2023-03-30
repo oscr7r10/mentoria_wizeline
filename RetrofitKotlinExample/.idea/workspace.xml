@@ -5,31 +5,37 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc94ea0d-35e8-4258-a444-b6c7eadbb1ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/DogsApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/APIService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/APIService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/DogsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/presentation/adapter/DogsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/DogsResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/DogsResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/ImageViewExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/ImageViewExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/presentation/view/MainActivity.kt" afterDir="false" />
+    <list default="true" id="dc94ea0d-35e8-4258-a444-b6c7eadbb1ca" name="Changes" comment="Update dependencies">
+      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/common/domain/UseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/data/mapper/DogsResponseExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/data/repository/DogsRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/data/repository/datasource/DogsDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/data/services/dogsapi/DogsRemoteDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/data/services/dogsapi/response/DogsResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/domain/usecase/SearchDogsByNameUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/injection/NetworkModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/injection/RepositoryModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/presentation/view/searchdogs/SearchDogsFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/presentation/viewmodel/SearchDogsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/tools/ResultAPI.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/utilities/SingleLiveEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_dogs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/main_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/APIService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/data/services/dogsapi/APIService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/DogsResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/domain/model/DogsModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/presentation/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/retrofitkotlinexample/presentation/view/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_dog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_dog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +52,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="navigationResourceFile" />
       </list>
     </option>
   </component>
@@ -63,9 +70,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DEBUGGABLE_DEVICE": "xiaomi-redmi_note_8_pro-iz4xgiofby8tn7da",
+    "DEBUGGABLE_PROCESS": "com.cursokotlin.retrofitkotlinexample",
+    "DEBUGGER_ID": "Auto",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHOW_ALL_PROCESSES": "false",
     "android-custom-view/Users/1028943/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED": "RecyclerView",
     "cidr.known.project.marker": "true",
     "last_opened_file_path": "/Users/1028943/Documents/WizelineAcademy/mentoria_wizeline/RetrofitKotlinExample"
@@ -73,6 +85,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.cursokotlin.retrofitkotlinexample.data.services.dogsapi" />
+      <recent name="com.cursokotlin.retrofitkotlinexample.domain.model" />
+      <recent name="com.cursokotlin.retrofitkotlinexample.domain.usecase" />
       <recent name="com.cursokotlin.retrofitkotlinexample.presentation.adapter" />
       <recent name="com.cursokotlin.retrofitkotlinexample.presentation.view" />
     </key>
@@ -146,6 +161,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680131187774</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update dependencies">
+      <created>1680133611267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680133611267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,5 +181,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update dependencies" />
   </component>
 </project>

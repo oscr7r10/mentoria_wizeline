@@ -18,9 +18,7 @@ class DogsAdapter (private val images: List<String>) : RecyclerView.Adapter<Dogs
         return ViewHolder(binding)
     }
 
-    override fun getItemCount(): Int {
-        return images.size
-    }
+    override fun getItemCount()= images.size
 
     class ViewHolder(private val binding: ItemDogBinding) : RecyclerView.ViewHolder(binding.root) {
 
